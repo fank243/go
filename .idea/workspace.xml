@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80ad7415-129b-4691-bc97-c8d4b1cfc7fe" name="Default Changelist" comment="" />
+    <list default="true" id="80ad7415-129b-4691-bc97-c8d4b1cfc7fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/constantdelay.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/cron.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/robfig/cron/spec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +29,12 @@
   </component>
   <component name="GOROOT" path="/opt/local/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/go-study/src/github.com/robfig/cron" />
-  </component>
-  <component name="GoLibraries">
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$/go-study" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YD0joQD6KEqBBEesWXFFdHIEfv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -35,10 +45,11 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -51,22 +62,41 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/go-study/src/cmd" />
       <recent name="$PROJECT_DIR$/go-study/src" />
-      <recent name="$PROJECT_DIR$/go-study" />
-      <recent name="$PROJECT_DIR$/go-study/cmd" />
-      <recent name="$PROJECT_DIR$/go-study/common/utils" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go-study" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="go-study" />
-      <working_directory value="$PROJECT_DIR$/go-study" />
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go-server" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
-      <filePath value="rror: Cannot find package $PROJECT_DIR$/go-study/src/main.go" />
+      <filePath value="rror: Cannot find package $PROJECT_DIR$/server/main.go" />
       <package value="$PROJECT_DIR$/go-study/src/cmd/main.go" />
-      <directory value="$PROJECT_DIR$/go-study/src/cmd" />
+      <directory value="$PROJECT_DIR$/server" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
   </component>
@@ -82,7 +112,9 @@
       <updated>1582461995173</updated>
       <workItem from="1582461999679" duration="3018000" />
       <workItem from="1582465056519" duration="7398000" />
-      <workItem from="1582516707723" duration="5558000" />
+      <workItem from="1582516707723" duration="6464000" />
+      <workItem from="1582523555266" duration="317000" />
+      <workItem from="1582523900046" duration="351000" />
     </task>
     <servers />
   </component>
@@ -90,6 +122,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/go-study/src/github.com/robfig/cron" />
     </ignored-roots>
@@ -99,42 +132,46 @@
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="399" y="87" key="#Go_Modules_(vgo)/0.0.1600.864@0.0.1600.864" timestamp="1582464159017" />
-    <state x="263" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582521832369">
+    <state x="263" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582524252268">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state x="263" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.864@0.0.1600.864" timestamp="1582521832369" />
+    <state x="263" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.864@0.0.1600.864" timestamp="1582524252268" />
     <state x="475" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582471253235">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="475" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.864@0.0.1600.864" timestamp="1582471253235" />
-    <state x="529" y="65" key="#go-study" timestamp="1582521190390">
+    <state x="529" y="65" key="#go" timestamp="1582524229893">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state x="529" y="65" key="#go-study/0.0.1600.864@0.0.1600.864" timestamp="1582521190390" />
+    <state x="529" y="65" key="#go-study" timestamp="1582522798939">
+      <screen x="0" y="0" width="1600" height="864" />
+    </state>
+    <state x="529" y="65" key="#go-study/0.0.1600.864@0.0.1600.864" timestamp="1582522798939" />
+    <state x="529" y="65" key="#go/0.0.1600.864@0.0.1600.864" timestamp="1582524229893" />
     <state x="541" y="190" key="EnvironmentVariablesDialog" timestamp="1582463911105">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="541" y="190" key="EnvironmentVariablesDialog/0.0.1600.864@0.0.1600.864" timestamp="1582463911105" />
-    <state x="586" y="184" key="FileChooserDialogImpl" timestamp="1582471125993">
+    <state x="586" y="184" key="FileChooserDialogImpl" timestamp="1582522946357">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state x="586" y="184" key="FileChooserDialogImpl/0.0.1600.864@0.0.1600.864" timestamp="1582471125993" />
-    <state width="1554" height="205" key="GridCell.Tab.0.bottom" timestamp="1582522026820">
+    <state x="586" y="184" key="FileChooserDialogImpl/0.0.1600.864@0.0.1600.864" timestamp="1582522946357" />
+    <state width="1554" height="205" key="GridCell.Tab.0.bottom" timestamp="1582524258838">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state width="1554" height="205" key="GridCell.Tab.0.bottom/0.0.1600.864@0.0.1600.864" timestamp="1582522026820" />
-    <state width="1554" height="205" key="GridCell.Tab.0.center" timestamp="1582522026819">
+    <state width="1554" height="205" key="GridCell.Tab.0.bottom/0.0.1600.864@0.0.1600.864" timestamp="1582524258838" />
+    <state width="1554" height="205" key="GridCell.Tab.0.center" timestamp="1582524258838">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state width="1554" height="205" key="GridCell.Tab.0.center/0.0.1600.864@0.0.1600.864" timestamp="1582522026819" />
-    <state width="1554" height="205" key="GridCell.Tab.0.left" timestamp="1582522026819">
+    <state width="1554" height="205" key="GridCell.Tab.0.center/0.0.1600.864@0.0.1600.864" timestamp="1582524258838" />
+    <state width="1554" height="205" key="GridCell.Tab.0.left" timestamp="1582524258837">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state width="1554" height="205" key="GridCell.Tab.0.left/0.0.1600.864@0.0.1600.864" timestamp="1582522026819" />
-    <state width="1554" height="205" key="GridCell.Tab.0.right" timestamp="1582522026819">
+    <state width="1554" height="205" key="GridCell.Tab.0.left/0.0.1600.864@0.0.1600.864" timestamp="1582524258837" />
+    <state width="1554" height="205" key="GridCell.Tab.0.right" timestamp="1582524258838">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state width="1554" height="205" key="GridCell.Tab.0.right/0.0.1600.864@0.0.1600.864" timestamp="1582522026819" />
+    <state width="1554" height="205" key="GridCell.Tab.0.right/0.0.1600.864@0.0.1600.864" timestamp="1582524258838" />
     <state width="1554" height="254" key="GridCell.Tab.1.bottom" timestamp="1582472466344">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
@@ -151,18 +188,18 @@
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state width="1554" height="254" key="GridCell.Tab.1.right/0.0.1600.864@0.0.1600.864" timestamp="1582472466343" />
-    <state x="287" y="3" width="932" height="742" key="SettingsEditor" timestamp="1582472414140">
+    <state x="287" y="3" width="932" height="742" key="SettingsEditor" timestamp="1582524226157">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state x="287" y="3" width="932" height="742" key="SettingsEditor/0.0.1600.864@0.0.1600.864" timestamp="1582472414140" />
+    <state x="287" y="3" width="932" height="742" key="SettingsEditor/0.0.1600.864@0.0.1600.864" timestamp="1582524226157" />
     <state x="100" y="100" width="1400" height="664" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582521951966">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="100" y="100" width="1400" height="664" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.864@0.0.1600.864" timestamp="1582521951966" />
-    <state x="420" y="61" key="new project wizard" timestamp="1582462100020">
+    <state x="420" y="61" width="760" height="741" key="new project wizard" timestamp="1582524103960">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
-    <state x="420" y="61" key="new project wizard/0.0.1600.864@0.0.1600.864" timestamp="1582462100020" />
+    <state x="420" y="61" width="760" height="741" key="new project wizard/0.0.1600.864@0.0.1600.864" timestamp="1582524103960" />
     <state x="529" y="262" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582472332409">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
